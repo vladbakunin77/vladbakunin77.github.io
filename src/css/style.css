@@ -1,0 +1,203 @@
+/* Спецификация */
+body{
+	font-family: 'PT Sans' , 'sana-serif';
+	color: black;
+}
+.header{
+	background-color: #fcdb00;
+	color: black;
+	padding-top: 57px;
+	padding-bottom: 105px;
+
+}
+li,a,i{
+	color:black;
+}
+ul, li{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	padding-top: 10px;
+	color: black;
+}
+.menu__item{
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+	margin: 0 57px;
+}
+h1, h2, h3, h4, h5,{
+	font-weight: bold;
+	color: black;
+}
+h3{
+	font-weight: 400;
+} 
+.offer{
+	margin-top: 117px;
+}
+.offer__title{
+	font-size: 32px;
+	line-height: 1,3em;
+	font-weight: 600;
+
+}
+.offer__intro{
+	font-size: 20px;
+	line-height: 1,3em;
+	margin-top: 30px;
+
+}
+.offer__text{
+	font-weight: 16px;
+	margin-top:15px;
+	color: black;
+	width: 400px;
+}
+.icons__item{
+margin-right: 30px;
+font-size: 42px;
+
+}
+}
+.icons__item a{
+font-size: 42px;
+margin-right: 30px;
+transition: all 0,3s ease;
+}
+/* Вспомнить, transition*/
+.icons__item a:hover{
+	color: red;	
+	text-decoration: none;
+}
+.ipad{
+	display: block;
+	margin:60px auto 0;
+}
+/*Повторить краткую запись марджина*/
+.title{
+padding-top: 100px;
+text-align: center;
+padding-bottom: 70px;
+}
+.title__main{
+font-size:32px;
+font-weight: 600;
+}
+.title__text{
+font-size:20px;
+width: 780px;
+margin:auto;
+}
+.feature__icon{
+	font-size:50px;
+	margin-right: 37px;
+	color: black;
+}
+.feature__text{
+	color: gray;
+}
+.feature{
+	margin-bottom:65px;
+}
+.touch{
+	background-color: black;
+	color:white;
+}
+.yellow{
+	color: #fcdb00; 
+}
+.form__input{
+	background: white;
+	font-size: 16px;
+	font-family: 'PT Sans' , 'sans-serif';
+	width:580px;
+	border-radius: 5px;
+	border:0;
+	padding: 15px 0;
+	margin-right: 21px;
+	outline:none;
+	text-align: center;
+	
+}
+.form__btn{
+	border-radius: 5px;
+font-family: 'PT Sans' , 'sans-serif';
+text-transform: uppercase;
+font-weight: bold;
+width: 126px;
+border:0;
+padding: 15px 0;
+margin-right: 21px;
+background-color: #fcdb00;
+color:black;
+cursor: pointer;
+outline:none;
+}
+.form{
+	text-align: center;
+}
+.footer{
+	background-color: black;
+padding: 50px 0 94px;
+/*Повтори краткую запись марджина*/
+}
+.credits{
+	color: white;
+	font-size:16px;
+	text-align: center;
+	margin:0 auto;
+}
+/*Медиа-запросы*/
+@media screen and (max-width: 1200px){
+	.menu__item{
+		margin:0 30px;
+}
+}
+@media screen and (max-width:992px){
+	.logo{
+		display: block;
+		margin:0 auto;
+	}
+	.offer{
+		text-align: center;
+	}
+	.offer__text{
+		margin:0 auto;
+		width: auto;
+	}
+	.icons{
+		justify-content:center;
+		margin:30px 0;
+	}
+	.title__text{
+		width: auto;
+	}
+	.form__input{
+		margin:0 auto;
+	}
+}
+@media screen and (max-width:576px){
+	.form__input{
+		width: 100%;
+	}
+	.form__btn{
+width: 100%
+	}
+	.icons__itemnth-child(3){
+margin-right: 0px;
+	}
+	.menu{
+flex-direction: column;
+text-align: center;
+	}
+	.item{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.ipad{
+		width: 100%;
+	}
+}
