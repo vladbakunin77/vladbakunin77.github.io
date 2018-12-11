@@ -1,0 +1,239 @@
+
+body{
+	font-family: 'Lobster','Ubuntu' , "Noto Serif SC" , 'sana-serif';
+	color: black;
+}
+.goods__card{
+	margin:15px auto;
+}
+.header__background{
+	background-image: url(../img/1.png); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+}
+}
+.header{
+	color: black;
+	padding-bottom: 105px;
+	height: auto;
+	margin-bottom:1em;
+
+}
+.logo{
+	margin-top: 50px;
+}
+
+li,a,i{
+	color:black;
+}
+ul, li{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	padding-top: 67px;
+	pad
+	color: black;
+
+}
+.menu__item{
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+	margin:10px 30px;
+}
+	.menu__button{
+		border-radius: 15px;
+		border-width: 2px;
+		font-weight: 300;
+		color: white;
+		border-color: #50c3af;
+		font-family: 'Lobster', cursive;
+	}
+h1, h2, h3, h4, h5,{
+	font-weight: bold;
+	color: black;
+}
+h3{
+	font-weight: 400;
+} 
+.offer{
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+.offer__title{
+	font-size: 70px;
+	line-height: 1em;
+	font-weight: 500;
+	color:#ffffff;
+	font-family: 
+}
+.offer__intro{
+	font-size: 40px;
+	line-height: 1,3em;
+	margin-top: 30px;
+	color: white;
+
+}
+.offer__text{
+	font-size:50px;
+	margin-top:15px;
+	color: black;
+	width: 400px;
+	line-height: 1.3em;
+	color: white;
+	text-decoration: underline;
+}
+.offer__btn{
+	display: block;
+			border-radius: 15px;
+		font-weight: 300;
+		color: white;
+		border-color: #50c3af;
+		font-family: 'Lobster', cursive;
+	}
+	.offer__phone{
+		padding: 3em 0em;
+	}
+
+/*Повторить краткую запись марджина*/
+.title{
+padding-top: 70px;
+text-align: center;
+padding-bottom: 70px;
+}
+.title__main{
+font-size:32px;
+font-weight: 600;
+}
+.card__button{
+	margin:20px auto;
+}
+.title__text{
+font-size:20px;
+width: 780px;
+margin:auto;
+}
+.card{
+	width: 18rem;
+	text-align: center;
+}
+.cards__img{
+	width: 100%;
+	height: 200px;
+}
+.footer{
+	border-top: 1px solid white;
+	background-color:#50c3af;
+	padding: 0px 0 px;
+}
+.footer__nav>.menu{
+	padding: 30px 0px 30px 0px;
+}
+.credits{
+	color: white;
+	font-size:16px;
+	text-align: center;
+	margin:0 auto;
+}
+.card__box{
+	margin-bottom: 15px;
+}
+.contacts{
+background-color: #50c3af;
+color: white
+}
+.contacts .title__text a{
+	color: white
+}
+.contacs__map{
+	padding:0px 25px
+}
+.map__text{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.map{
+	outline: 2px solid white;
+	padding:10px 25px 10px 25px;
+	margin-bottom: 1.5em;
+}
+iframe{
+	width:100%;
+	height:450px;
+	border:none;
+}
+/*Медиа-запросы*/
+@media (min-width: 992px) and (max-width:1176px){
+		.menu{
+		margin-right:25%;
+	}
+	.footer__nav>.menu{
+		margin-right: 0px;
+		padding:30px 00px 30px 0px;
+	}
+	.offer__phone{
+		padding: 3em 0em;	}
+}
+@media screen and (max-width:991px){
+.goods__card{
+	margin:15px auto;
+	display: inline-block;
+	justify-content: center;
+}
+	.header{
+		padding-bottom: 0px;
+	}
+	.menu{
+		flex-direction:column;
+		text-align:center;
+		margin-top:0px;
+		padding:30px 0px;
+	}
+	.logo{
+		display: block;
+		margin:0em auto 10px auto;
+	}
+	.offer{
+		text-align: center;
+		margin-top:10px;
+	}
+	.offer__text{
+		margin:0 auto;
+		width: auto;
+	}
+	.title__text{
+		width: auto;
+	}
+		.offer__title{
+		display: none;
+	}
+	.offer__intro{
+		display: none;
+	}
+	.offer__text{
+		font-size: 30px;
+	}
+	.test{
+		padding-bottom: 3em;
+	}
+	.offer__phone{
+		padding-top: 1em;
+	}
+@media screen and (max-width:576px){
+	.menu{
+flex-direction: column;
+text-align: center;
+	}
+	.item{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	iframe{
+		height:300px;
+	}
+}
