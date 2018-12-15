@@ -202,7 +202,10 @@ iframe{
 		padding: 3em 0em;	}
 }
 @media screen and (max-width:991px){
-.goods__card{
+	#loader{
+	background-size:40px;
+	}
+	.goods__card{
 	margin:15px auto;
 	display: inline-block;
 	justify-content: center;
@@ -253,6 +256,9 @@ iframe{
 		display: none;
 	}
 @media screen and (max-width:576px){
+	#loader{
+	background-size:30px;
+	}
 	.menu{
 flex-direction: column;
 text-align: center;
