@@ -1,6 +1,6 @@
 
 body{
-	font-family: 'Lobster','Ubuntu' , "Noto Serif SC" , 'sana-serif';
+	font-family: 'Lobster','Ubuntu' , "Noto Serif SC" , sans-serif;
 	color: black;
 }
 .goods__card{
